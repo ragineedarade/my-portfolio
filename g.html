@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raginee Darade Resume</title>
+
+    <!-- External styles (like fonts) -->
+    <link rel="stylesheet" href="path_to_your_css_file.css" />
+
+    <!-- Internal CSS to style the iframe -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #1a1a1a; /* Set background to dark */
+        color: white;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .resume-title {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #f4d03f;
+      }
+
+      .download-link {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.2em;
+        color: #8e44ad; /* Purple color for the download link */
+        text-decoration: none;
+      }
+
+      .resume-iframe {
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+        border: none;
+        display: block;
+      }
+
+      @media (max-width: 768px) {
+        .resume-iframe {
+          height: 75vh; /* For tablet screens */
+        }
+      }
+
+      @media (max-width: 480px) {
+        .resume-iframe {
+          height: 60vh; /* For mobile phones */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Title -->
+      <h1 class="resume-title">Resume</h1>
+
+      <!-- Download link for the resume -->
+      <a
+        href="RagineeDaradeResume (1).pdf "
+        class="download-link"
+        target="_blank"
+        >Click here to Download</a
+      >
+
+      <!-- Embedded PDF resume using iframe -->
+      <iframe src="RagineeDaradeResume (1).pdf" class="resume-iframe"></iframe>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raginee Darade</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/123.jpg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/avatar-3.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Raginee Darade</h1>
+
+            <p class="title">Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >ragineedarade@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+91 9584531181</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">April 16, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Indore , Madhya pradesh india</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/ragineedarade" class="social-link">
+                <ion-icon name="logo-Github"></ion-icon>
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a href="https://leetcode.com/your-profile/" class="social-link">
+                <img src="./assets/images/lololeet.png" alt="LeetCode" class="social-icon">
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a href="https://github.com/ragineedarade" class="social-link">
+                <ion-icon name="logo-Github"></ion-icon>
+              </a>
+            </li>
+           
+            
+            <li class="social-item">
+              <a
+                href=" https://unstop.com/u/raginee_darade"
+                class="social-link"
+              >
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </aside>
+ 
+      <div class="main-content">
+        
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+ 
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me.</h2>
+          </header>
+
+          <section class="about-text">
+            <h3>Introduction:</h3>
+            <p> <br>
+              Hello! I'm Raginee Darade, a third-year B.Tech student in Computer Science Engineering 
+              with a deep interest in full-stack development, Python programming, and artificial intelligence
+              . I’m passionate
+               about open-source contributions and have recently been selected as a contributor for GSSoC 2024,
+                where I’m actively working to enhance my skills
+            </p>
+            <h3>About Me: </h3>
+            <p>
+              Through GSSoC, I’m contributing to various projects that sharpen my technical expertise, particularly in full-stack development, Python, and AI.
+            </p>
+          </section>
+          <!--
+          - service
+        -->
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Python Development</h4>
+
+                  <p class="service-item-text">
+                   I am constantly honing my Python development skills, exploring new concepts,innovative projects.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Fullstack development</h4>
+
+                  <p class="service-item-text">
+                    I create dynamic websites using HTML, CSS, JavaScript, and Django, focusing on user-friendly design and efficient backend systems.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src=" ./assets/images/icon-dev.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Open Source Contributions<h4>
+
+                  <p class="service-item-text">
+                    I am working as a contributor in GSSoC '24, enhancing my skills through open-source projects.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src=" ./assets/images/icon-design.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI / ML Learning</h4>
+
+                  <p class="service-item-text">
+                    I am exploring AIML (Artificial Intelligence and Machine Learning) to develop intelligent chatbots and enhance user interactions. 
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+           position of certificates
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Badge and Certifications</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    <a href="https://unstop.com/u/raginee_darade"> Unstop </a>
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                     I have earned over 46 certificates of participation in hackathons, quizzes, and assessments, demonstrating my commitment to continuous learning and skill development.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                  <a href="https://leetcode.com/u/ragineedarade02/"> Leetcode </a> 
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I have completed the 100 Days of Code challenge, showcasing my dedication to consistent coding practice and skill development. This experience has significantly enhanced my programming abilities and project execution.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                  <a href="https://www.hackerrank.com/profile/RAGINEEDARADE"> Hacker Ranker </a> 
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I have earned multiple stars on HackerRank, including a 5-star rating in Python and a 3-star rating in C++, showcasing my proficiency in these languages.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Raginee</h4>
+
+                <time datetime="2021-06-14">01  Octomber, 2024</time>
+
+                <div data-modal-text>
+                  <p>
+                    
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+   
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+          <div class="container">
+            <!-- Title -->
+            <h1 class="resume-title">Resume</h1>
+      
+            <!-- Download link for the resume -->
+            <a
+              href="Raginee (Resume).pdf "
+              class="download-link"
+              target="_blank"
+              >Click here to Download</a
+            >
+      
+             
+            
+          </div>
+          <div class="res">
+            <h1>About Job Role</h1>
+           <hr>
+        
+            <p>
+                Raginee Darade is a Full Stack Developer and Python Developer with a strong foundation in both front-end and back-end web development.
+                She is proficient in HTML, CSS, JavaScript, and Python, with particular expertise in the Django framework for building robust, scalable web applications.
+            </p>
+        <BR><BR>
+            <h1>My Achievements</h1>
+            <hr>
+            <br>
+            <ul class="achievements-list">
+              <li> 1 Completed the LeetCode 100 Days Challenge in 2024 to enhance problem-solving skills.</li><BR>
+             <li> 2  Selected as an open-source contributor for GSSoC 2024.</li><BR>
+              <li> 3 Currently developing <em>WordWise</em>, a platform for writers to grow and monetize their content.</li><BR>
+              <li> 4 Earned 46+ certificates from Unstop for hackathons and quiz challenges.</li><BR>
+              <li> 5 Completed several certifications on Coursera.</li><BR>
+              <li> 6 Cracked the NPTEL exam in cloud computing and distribution.</li><BR>
+              <li> 7 Led the team in SIH 2023 and participated in SIH 2024, ranking among the top two teams in college.</li><BR>
+              <li> 8 Completed multiple courses through Great Learning certifications.</li><BR>
+            </ul>
+            
+        </div>
+        
+        </article>
+ 
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <br><br><br><bR>
+              <button class="filter-select" data-select>
+                
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                 
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://foodybuddy-raginee.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/foodybuddy.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title"> FoodyBuddy Recipe Website</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+                
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/img.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PowerBI Instamart project </h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/portfolio.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Portfolio</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://zora-virtual-assistance.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+ 
+                    <img
+                      src="./proimg/zora1.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Virtual Assistance By Python
+                  </h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+             
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://carcomfrontedpart.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/cardjango.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title"> CAR.COM </h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/ai.jpg"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">AI Agents</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/qr.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">QR Code Generator (ALLQR)</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://kasmiricom.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/kashmiri.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SIH 2023</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./proimg/khandwa.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Khandwa.Com</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+                <br><br>
+                 
+              </li>
+            </ul>
+            
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/bolges/blog1.jpeg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+ 
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <span class="dot"></span>
+                      <p class="blog-category">Skills</p>
+
+                       
+
+                 
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Microsoft Power BI
+                    </h3>
+
+                    <p class="blog-text">
+                      I can use Power BI to create graphical designs of data that make work easier
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/bolges/blog2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <span class="dot"></span>
+                      <p class="blog-category">Skills</p>
+
+                
+                     
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Git and Github
+                    </h3>
+
+                    <p class="blog-text">
+                      I know how to use Git and GitHub Desktop, and I also know how to contribute. I am currently working on real-life projects.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/bolges/blog3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <span class="dot"></span>
+                      <p class="blog-category">Skills</p>
+
+                     
+
+                     
+                    </div>
+
+                    <h3 class="h3 blog-item-title"> Prompt Writing</h3>
+
+                    <p class="blog-text">
+                      I can write prompts to work on any task related to chat tools or generating software, which is very important in this area
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src=" ./assets/bolges/blog4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <span class="dot"></span>
+                      <p class="blog-category">Skills</p>
+
+                    
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Microsoft 365
+                    </h3>
+
+                    <p class="blog-text">
+                      I can efficiently operate Microsoft 365 tools like Word, Excel, PowerPoint, and Teams for seamless collaboration. 
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src=" ./assets/bolges/blog5.webp"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <span class="dot"></span>
+                      <p class="blog-category">Skills</p>
+
+                    
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Problem Solving 
+                    </h3>
+
+                    <p class="blog-text">
+                      I have a  knowlege of coading languges and i have a  good command on python  and c++.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src=" ./assets/bolges/blog6.png"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <span class="dot"></span>
+                      <p class="blog-category">Skills</p>
+
+                    
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Communication Skills</h3>
+
+                    <p class="blog-text">
+                      i have a better commad on english and communication skills .
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.49482446615!2d75.6990383003202!3d22.723888290820824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1727688501129!5m2!1sen!2sin" 
+              width="430" 
+              height="300" 
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+ 
+    <script src="script.js"></script>
+ 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
